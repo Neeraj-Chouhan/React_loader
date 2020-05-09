@@ -13,16 +13,23 @@ npm install --save simple-react-loader
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import { Loader } from 'simple-react-loader'
 
-import MyComponent from 'simple-react-loader'
-import 'simple-react-loader/dist/index.css'
+const App = () => {
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+  return  ( 
+  <div>
+    
+  <h1>this is simple loader..</h1>
+  
+  <Loader showLoader={true} />
+
+
+  </div> )
 }
+
+export default App
 ```
 
 ## License

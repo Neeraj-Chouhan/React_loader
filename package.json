@@ -1,10 +1,11 @@
 {
+  "homepage":"https://Neeraj-Chouhan.github.io/simple-react-loader",
   "name": "simple-react-loader",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "this is simple react loader",
   "author": "Neeraj-Chouhan",
   "license": "MIT",
-  "repository": "Neeraj-Chouhan/simple-react-loader",
+  "repository": "git remote -v.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

@@ -1,10 +1,17 @@
 import React from 'react'
-
-import { ExampleComponent } from 'simple-react-loader'
-import 'simple-react-loader/dist/index.css'
+import { Loader } from 'simple-react-loader'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+
+  return  ( 
+  <div>
+    
+  <h1>this is simple loader..</h1>
+  
+  <Loader showLoader={true} />
+
+
+  </div> )
 }
 
 export default App
